@@ -78,6 +78,8 @@ nav {
   font-size: 18px;
 }
 
+/* Banner */
+
 .banner-text-content {
   max-width: 862px;
   margin: 0 auto;
@@ -97,5 +99,15 @@ nav {
 }
 
 .banner-img {
+  width: 100%;
   margin: 40px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-items {
+    margin: 15px 15px 0 15px;
+  }
 }
