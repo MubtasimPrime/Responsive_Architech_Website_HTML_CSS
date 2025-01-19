@@ -286,6 +286,10 @@ nav {
   filter: grayscale(1);
 }
 
+.fact-text-container {
+  flex-direction: column;
+}
+
 #footer {
   background-color: #fff4e7;
   margin-bottom: 100px;
@@ -327,5 +331,51 @@ nav {
   }
   .text-container {
     width: 380px;
+  }
+
+  .fact-container {
+    gap: 25px;
+    flex-direction: column;
+  }
+
+  .sponsor-icon {
+    flex-direction: column;
+  }
+  .fact-container {
+    width: 350px;
+    gap: 5px;
+  }
+
+  .fact-section {
+    margin-bottom: 60px;
+  }
+
+  .fact-card {
+    margin-top: 25px;
+  }
+
+  #fact-h2 {
+    text-align: center;
+  }
+
+  #fact-p {
+    width: 300px;
+    line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sponsor-text-content p {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .sponsor-text-content {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .sponsor-icon {
+    margin-top: 40px;
+    gap: 50px;
   }
 }
